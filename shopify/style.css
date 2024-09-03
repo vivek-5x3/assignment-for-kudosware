@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+/* Header */
+.top {
+    background-color: #e95c6f;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+.navbar {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.navbar .logo {
+    padding-left: 50px;
+}
+
+.navbar nav ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    
+}
+.navbar nav ul li {
+    padding-left: 50px;
+    
+    
+}
+.navbar nav ul li a {
+    text-decoration: none;
+    color: #333;
+  
+    
+}
+.navbar .login {
+    background-color: #f3c233;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.navbar .login:hover{
+    box-shadow: 2px 2px 5px #3d3d3b;
+}
+/* .navbar nav ul li:hover{
+    border: 2px solid #e95c6f;
+    border-radius: 25px;
+    background-color: #e95c6f;
+} */
+
+/* Main Section */
+.subscription {
+    height: 400px;
+    width: 800px;
+    text-align: center;
+    padding: 50px 20px;
+    margin-left: 300px;
+    background-color: #f8f8f8;
+    background-image:url("lovepik-mother-holding-her-baby-png-image_401726179_wh1200.png");
+    background-size: contain;
+    
+}
+
+.subscription h1 {
+    color: #e95c6f;
+}
+.sub{
+    color:black;
+}
+
+.subscription p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.subscription .subscribe-btn {
+    background-color: #e95c6f;
+    border-radius: 25px;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.subscription .subscribe-btn:hover{
+    box-shadow: 2px 2px 5px#e95c6f;
+}
+.cta-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.cta-buttons button:hover{
+    box-shadow: 2px 2px 5px#e95c6f;
+}
+ /*cards*/
+.categories {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.category {
+    margin: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.category img {
+    width: 100%;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.category h2 {
+    margin: 15px 0 5px;
+}
+
+.category p {
+    margin: 5px 0;
+}
+
+.category button {
+    background-color: #e95c6f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.category:hover{
+    box-shadow: 2px 2px 5px#e95c6f;
+}
